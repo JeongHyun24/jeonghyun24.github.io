@@ -1,0 +1,349 @@
+@charset "UTF-8";
+/*-------------------------------------------------------------------
+    파일정의 : sub.css 컨텐츠 스타일 css
+    작성자 : 오정현
+    작성일 : 2022-12-14
+    속성순서 : 표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+
+/*=== visual ===*/
+
+.header{
+    width: 1440px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+}
+.in-menu li{
+    font-family: 'line', serif, 'sans-serif';
+    font-size: 17px;
+    width: 120px;
+    display: inline-block;
+}
+.in-menu li:hover {
+    cursor: pointer;
+}
+.sub-visual-wrapper{
+    width: 100%;
+    background: linear-gradient(45deg, #D3D4E5, #f8f8fb);
+/*    background: linear-gradient(#f1f1f5, #d1d1dd);*/
+    
+}
+.sub-visual{
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+.project{
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 6rem;
+}
+.title{
+    width: 43%;
+}
+.in-title{
+    font-size: 15px;
+    padding-top: .5rem;
+    font-weight: 500;
+    color: #000;
+}
+h2{
+    font-family: 'line', serif, 'sans-serif';
+    color: #000;
+    font-size: 44px;
+    font-weight: 600;
+    
+}
+.project button{
+    font-family: 'line', serif, 'sans-serif';
+    font-weight: 300;
+    color: #fff;
+    background: linear-gradient(45deg, #4500FF, #D966D1);
+    width: 240px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 21%);
+}
+.final .material-symbols-outlined{
+    font-size: 28px;
+    font-weight: 600;
+}
+.final{
+    width: 43%;
+}
+.final-m{
+    width: 43%;
+    visibility: hidden;
+}
+.role ul{
+    display: flex;
+}
+.role h5{
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 1.7rem;
+    color: #000;
+    
+}
+.role ul li{
+    display: inline-block;
+    margin-right: 6rem;
+}
+.main_img{
+    width: 60rem;
+}
+.main_img-m{
+    width: 30rem;
+}
+.main_img-am{
+    width: 70rem;
+}
+.main_img-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+
+/*=== con ===*/
+
+.detail{
+    background: #F1F2F8;
+}
+section{
+    padding: 6rem 0;
+}
+section:nth-child(2n){
+    background: #f8f8fb;
+}
+.in-sec{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+.in-sec2{
+    width: 1280px;
+    margin: 0 auto;
+}
+.in-sec3{
+    width: 1280px;
+    text-align: center;
+    margin: 0 auto;
+}
+.in-sec2 .tit{
+    margin-bottom: 1rem;
+}
+.in-sec3 .tit{
+    width: 100%;
+    text-align: center;
+}
+.in-sec3 img{
+    margin-top: 1.5rem;
+}
+.userflow{
+    margin-bottom: 5rem;
+}
+.output{
+    margin-bottom: 1.6rem;
+}
+.tit{
+    font-family: 'line', serif, 'sans-serif';
+    color: #000;
+    font-size: 34px;
+    font-weight: 600;
+    width: 25%;
+}
+.solution{
+    display: flex;
+}
+.solution strong{
+    font-family: 'line', serif, 'sans-serif';
+    font-size: 17px;
+    font-weight: 600;
+    color: #aaa;
+}
+.solution li{
+    display: inline-block;
+    margin-right: 6rem;
+}
+.solution li:not(:last-child){
+    margin-right: 6rem;
+}
+.inner{
+    font-family: 'line', serif, 'sans-serif';
+    font-size: 21px;
+    font-weight: 600;
+    color: #aaa;
+    text-align: center;
+}
+.final-main{
+    margin-bottom: 2rem;
+}
+.final_d{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.final_d img{
+    width: 45%;
+    border: 1px solid #f4f4f4;
+    box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 10%);
+}
+.mobile_img img{
+    width: 30%;
+}
+.final_d img + img {
+    margin-left: 0.5rem;
+}
+/*.final_d img:not(:last-child){*/
+/*    margin-right: 0.5rem;*/
+/*}*/
+
+.final_img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* slick style 임시로 변경 : 화살표랑 dot 원하는 스타일로 변경하시면 됩니당! */
+.slick-dots li button:before {
+    font-size: 45px;
+}
+.slick-arrow {
+/*    color: #7196DE;*/
+/*   background: #7196DE;*/
+}
+.slick-arrow:hover {
+/*    color: #7196DE;*/
+}
+
+
+
+/*=== lanch-site ===*/
+
+.launch_site{
+    background: #7196DE;
+    text-align: center;
+    padding: 4rem 0;
+}
+.launch_site p{
+    color: #fff;
+    font-family: 'line', serif, 'sans-serif';
+    font-size: 28px;
+    margin-bottom: 2rem;
+}
+.launch_site button{
+    background: #fff;
+    font-family: 'line', serif, 'sans-serif';
+    font-weight: 300;
+    color: #7196DE;
+    width: 240px;
+    padding: 15px 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    box-shadow: 0 0.2rem 0.5rem rgb(0 0 0 / 21%);
+}
+.sfa-next{
+    background: linear-gradient(45deg, #59C8C1, #309BBC);
+}
+.sfa-next button{
+    color: #44B2BE;
+}
+.portal{
+    background: #1B358E;
+}
+.portal button{
+    color: #1B358E;
+}
+.am{
+    background: #5551F7;
+}
+.am button{
+    color: #5551F7;
+}
+.ebook{
+    background: #38A9C9;
+}
+.ebook button{
+    color: #38A9C9;
+}
+.heylaw{
+    background: #25CAD3;
+}
+.heylaw button{
+    color: #25CAD3;
+}
+.npika{
+    background: #0041FF;
+}
+.npika button{
+    color: #0041FF;
+}
+.innodex{
+    background: #2B44EB;
+}
+.innodex button{
+    color: #2B44EB;
+}
+.wallet{
+    background: #9947fc;
+    /*background: linear-gradient(45deg, #00dc82, #36e4da);*/
+}
+.wallet button{
+    color: #9947fc;
+}
+
+
+
+
+
+/*=== footer ===*/
+
+.footer{
+    font-family: 'line', serif, 'sans-serif';
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    background: #333;
+    text-align: center;
+    padding: 1rem 0;
+}
+.about-in{
+    margin: 0 auto;
+    text-align: center;
+    width: 58px;
+    height: 6px;
+    background-color: #d1d1dd;
+    margin-top: -55px;
+    margin-bottom:  50px;
+}
+#toTop {
+    cursor: pointer;
+	position: fixed;
+    right: 3%;
+    bottom: 4%;
+    font-weight: bold;
+    background: #fff;
+    color: #4500FF;
+    box-shadow: 0px 0px 20px #ccc;
+    z-index: 10;
+}
+.iconbutton {
+    border-radius: 50%;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 75px;
+}
+.iconbutton .material-symbols-outlined{
+    font-size: 30px;
+}

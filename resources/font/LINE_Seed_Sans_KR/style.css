@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'line';
+    font-style: normal;
+    src: local(LINESeedKR-Th),
+    url(Webfont/WOFF2/LINESeedKR-Th.woff2) format('woff2'),
+    url(Webfont/WOFF/LINESeedKR-Th.woff) format('woff'),
+    url(Webfont/EOT/LINESeedKR-Th.eot) format('opentype');
+}
+
+@font-face {
+    font-family: 'line';
+    font-style: normal;
+    src: local(LINESeedKR-Th),
+    url(Webfont/WOFF2/LINESeedKR-Rg.woff2) format('woff2'),
+    url(Webfont/WOFF/LINESeedKR-Rg.woff) format('woff'),
+    url(Webfont/EOT/LINESeedKR-Rg.eot) format('opentype');
+}
+
+@font-face {
+    font-family: 'line';
+    font-style: normal;
+    src: local(LINESeedKR-Th),
+    url(Webfont/WOFF2/LINESeedKR-Bd.woff2) format('woff2'),
+    url(Webfont/WOFF/LINESeedKR-Bd.woff) format('woff'),
+    url(Webfont/EOT/LINESeedKR-Bd.eot) format('opentype');
+}
